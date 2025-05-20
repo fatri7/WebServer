@@ -1,0 +1,16 @@
+{
+    "_comment": "Web 服务器配置",
+    "port": 8080,
+    "_comment_trig_mode": "0=默认, 1=ET连接, 2=ET监听, 3=全ET",
+    "trig_mode": 3,
+    "_comment_timeout_ms": "关闭连接的超时时间",
+    "timeout_ms": 60000,
+    "_comment_opt_linger": "是否启用 SO_LINGER 套接字选项以实现优雅关闭",
+    "opt_linger": false,
+    "_comment_thread_number": "线程池的线程数",
+    "thread_number": 4,
+    "_comment_daemon_mode": "是否启用守护线程模式",
+    "_comment_daemon_mode_2": "如果启用守护线程模式，主线程会在子线程结束后退出",
+    "_comment_daemon_mode_3": "如果不启用守护线程模式，主线程会一直运行",
+    "daemon_mode": false
+}
